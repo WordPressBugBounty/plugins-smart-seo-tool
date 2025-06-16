@@ -1,0 +1,128 @@
+[
+  {
+    "label": "TDK優化",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "圖片優化",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "連結改寫",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "404監測",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "失效URL檢測",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "基礎Sitemap",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Robots.txt規則配置",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "站長工具驗證",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "重定向",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "無",
+      "pro": 1
+    }
+  },
+  {
+    "label": "進階Sitemap",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "無",
+      "pro": 1
+    }
+  },
+  {
+    "label": "返利連結管理",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "無",
+      "pro": "即將推出"
+    }
+  },
+  {
+    "label": "內部連結管理",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "無",
+      "pro": "即將推出"
+    }
+  },
+  {
+    "label": "進階連結檢測器",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "無",
+      "pro": "即將推出"
+    }
+  },
+  {
+    "label": "更多功能",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "無",
+      "pro": "即將推出"
+    }
+  }
+]

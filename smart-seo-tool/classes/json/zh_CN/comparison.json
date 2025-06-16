@@ -1,0 +1,128 @@
+[
+  {
+    "label": "TDK优化",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "图片优化",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "链接改写",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "404监测",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "失效URL检测",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "基础Sitemap",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Robots.txt规则配置",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "站长工具验证",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "重定向",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "无",
+      "pro": 1
+    }
+  },
+  {
+    "label": "进阶Sitemap",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "无",
+      "pro": 1
+    }
+  },
+  {
+    "label": "返利链接管理",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "无",
+      "pro": "即将推出"
+    }
+  },
+  {
+    "label": "内部链接管理",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "无",
+      "pro": "即将推出"
+    }
+  },
+  {
+    "label": "进阶链接检测器",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "无",
+      "pro": "即将推出"
+    }
+  },
+  {
+    "label": "更多功能",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "无",
+      "pro": "即将推出"
+    }
+  }
+]

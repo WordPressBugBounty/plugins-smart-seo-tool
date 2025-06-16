@@ -31,8 +31,8 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 		if (!$active) {
 			return;
 		}
-		wp_enqueue_style('wbp-admin-style-sst', plugin_dir_url(SMART_SEO_TOOL_BASE_FILE) . 'assets/wbp_admin.css', array(), SMART_SEO_TOOL_VERSION);
-		wp_enqueue_script('wbp-admin-js-sst', plugin_dir_url(SMART_SEO_TOOL_BASE_FILE) . 'assets/wb_admin_sst.js', array(), SMART_SEO_TOOL_VERSION, true);
+		wp_enqueue_style('wbp-admin-style-sst', plugin_dir_url(SMART_SEO_TOOL_BASE_FILE) . 'assets/css/wbp_admin.css', array('wbsst-inline'), SMART_SEO_TOOL_VERSION);
+		wp_enqueue_script('wbp-admin-js-sst', plugin_dir_url(SMART_SEO_TOOL_BASE_FILE) . 'assets/js/wb_sst.js', array(), SMART_SEO_TOOL_VERSION, true);
 	}
 
 	public static function add_meta_box()
@@ -41,9 +41,10 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 		if (!$active) {
 			return;
 		}
+
 		add_meta_box(
-			'wbolt_meta_box_sst',
-			'SEO信息设置',
+			'wbp_meta_box_sst',
+			_x('SEO信息设置', 'meta box title', WB_SST_TD),
 			array(__CLASS__, 'render_meta_box'),
 			null,
 			'advanced',
@@ -53,9 +54,6 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 
 	public static function render_meta_box($post)
 	{
-
-
-
 		$meta_val = get_post_meta($post->ID, 'wb_sst_seo', true);
 		if (!$meta_val || !is_array($meta_val)) {
 			$meta_val = array(0 => '', 1 => '', 2 => '');
@@ -65,10 +63,14 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 		$sst_opt['keywords']    = $meta_val[1];
 		$sst_opt['description'] = $meta_val[2];
 
-		$inline_js = 'var wb_sst_opt={opt:' . wp_json_encode($sst_opt) . ', admin_url:"' . admin_url() . '"};';
-		wp_add_inline_script('wbp-admin-js-sst', $inline_js, 'before');
+		// $inline_js = 'var wb_sst_opt={opt:' . wp_json_encode($sst_opt) . ', admin_url:"' . admin_url() . '"};';
+		// wp_add_inline_script('wbp-admin-js-sst', $inline_js, 'before');
+		wp_register_style('wbsst-inline', false, null, false);
+		wp_enqueue_style('wbsst-inline');
+		$inline_css = ':root{--wbsst-icon: url(' . plugin_dir_url(SMART_SEO_TOOL_BASE_FILE) . 'assets/icon_for_metabox.svg);}';
+		wp_add_inline_style('wbsst-inline', $inline_css);
 
-		echo '<div id="WB_PostMetaBox_SST"></div>';
+		require_once SMART_SEO_TOOL_PATH . '/tpl/meta_box.tpl.php';
 	}
 
 	public static function  array_sanitize_text_field($value)
@@ -119,14 +121,14 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 
 		if (empty($post->post_content) || !preg_match_all('#<a([^>]+)>(.+?)</a>#is', $post->post_content, $match)) {
 			if ($list) {
-                $db->query($db->prepare("DELETE FROM $t WHERE post_id=%d AND url_md5 IS NULL", $post->ID));
+				$db->query($db->prepare("DELETE FROM $t WHERE post_id=%d AND url_md5 IS NULL", $post->ID));
 			} else {
 				$d = array(
 					'post_id'     => $post->ID,
 					'create_date' => current_time('mysql'),
 					'memo'        => 'log'
 				);
-                $db->insert($t, $d);
+				$db->insert($t, $d);
 			}
 
 			return;
@@ -140,7 +142,7 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 				'create_date' => current_time('mysql'),
 				'memo'        => 'log'
 			);
-            $db->insert($t, $d);
+			$db->insert($t, $d);
 		} else {
 			foreach ($list as $k => $v) {
 				if (!$v->url) {
@@ -199,11 +201,11 @@ class Smart_SEO_Tool_PostEdit extends Smart_SEO_Tool_Base
 				continue;
 			}
 
-            $db->insert($t, $d);
+			$db->insert($t, $d);
 		}
 		if (!empty($exists_url)) {
 			$sid = implode(',', $exists_url);
-            $db->query("DELETE FROM $t WHERE id IN($sid)");
+			$db->query("DELETE FROM $t WHERE id IN($sid)");
 		}
 	}
 }

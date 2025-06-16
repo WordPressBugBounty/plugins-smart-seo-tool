@@ -1,0 +1,387 @@
+{
+  "1": {
+    "label": "搜索可见性",
+    "description": "根据实际情况，设置网站的搜索引擎可见性。如果网站正式对外，请选择“搜索引擎可见”；否则请选择“暂不开放索引”。",
+    "fields": [
+      {
+        "slug": "public",
+        "label": "",
+        "type": "radio",
+        "attrs": {
+          "items": [
+            {
+              "value": "0",
+              "label": "暂不开放索引"
+            },
+            {
+              "value": "1",
+              "label": "搜索引擎可见（编入索引）"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "public": "1"
+    }
+  },
+  "2": {
+    "label": "网站类型",
+    "description": "根据网站内容，选择符合您的网站的选项。",
+    "fields": [
+      {
+        "slug": "type",
+        "label": "网站类型",
+        "type": "radio",
+        "attrs": {
+          "items": [
+            {
+              "value": "10",
+              "label": "个人博客"
+            },
+            {
+              "value": "11",
+              "label": "电子商务"
+            },
+            {
+              "value": "12",
+              "label": "新闻资讯"
+            },
+            {
+              "value": "13",
+              "label": "线下业务"
+            },
+            {
+              "value": "14",
+              "label": "企业官网"
+            },
+            {
+              "value": "15",
+              "label": "作品集网站"
+            },
+            {
+              "value": "17",
+              "label": "其他类型"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "type": ""
+    }
+  },
+  "3": {
+    "label": "基本信息",
+    "description": "此处仅设置网站标题、描述及关键词等首页TDK基本信息。其他页面TDK信息，完成插件配置后可进入TDK优化设置。",
+    "fields": [
+      {
+        "slug": "separator",
+        "label": "标题分隔符号",
+        "type": "wbs-selector-separators",
+        "attrs": {}
+      },
+      {
+        "slug": "index_tdk",
+        "label": "网站主页 TDK",
+        "type": "wbs-tdk-setter",
+        "attrs": {}
+      }
+    ],
+    "default": {
+      "separator": "",
+      "index_tdk": {}
+    }
+  },
+  "4": {
+    "label": "索引&Sitemap",
+    "description": "可根据实际情况设置网站允许搜索引擎编入索引的内容类型。如不确定，使用默认设置即可。sitemap也基于此生成。",
+    "fields": [
+      {
+        "slug": "seo_index",
+        "label": "允许搜索引擎编入索引的内容类型",
+        "type": "checkbox-switch",
+        "attrs": {
+          "items": [
+            {
+              "value": "post",
+              "label": "允许搜索引擎索引\"文章\"类型URL"
+            },
+            {
+              "value": "page",
+              "label": "允许搜索引擎索引\"页面\"类型URL"
+            },
+            {
+              "value": "category",
+              "label": "允许搜索引擎索引\"分类目录\"类型URL"
+            },
+            {
+              "value": "tag",
+              "label": "允许搜索引擎索引\"标签\"类型URL"
+            },
+            {
+              "value": "search",
+              "label": "允许搜索引擎索引\"搜索结果\"类型URL"
+            },
+            {
+              "value": "author",
+              "label": "允许搜索引擎索引\"作者\"类型URL"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "seo_index": []
+    }
+  },
+  "5": {
+    "label": "robots.txt",
+    "description": "用来告诉搜索引擎，网站上的哪些页面可以抓取，哪些页面不能抓取。<a href=\"https://www.wbolt.com/robots-txt.html\" target=\"_blank\">了解更多></a>",
+    "fields": [
+      {
+        "slug": "robots_txt",
+        "label": "规则",
+        "type": "robots-setter",
+        "attrs": {
+          "btn_label": "默认规则"
+        }
+      }
+    ],
+    "default": {
+      "robots_txt": ""
+    }
+  },
+  "6": {
+    "label": "链接规则",
+    "description": "此处用于针对站内链接及出站链接优化规则设置，以更好的方式呈现给搜索引擎蜘蛛。",
+    "fields": [
+      {
+        "slug": "innser_links",
+        "label": "站内链接",
+        "type": "group",
+        "group": {
+          "fields": [
+            {
+              "slug": "reset_tag",
+              "label": "将标签链接改写为 <code>/tag/%tag_id%</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "hide_category",
+              "label": "隐藏分类链接前缀名称 <code><del>category</del>/catename/…</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "outer_links",
+        "label": "站外链接",
+        "type": "group",
+        "group": {
+          "fields": [
+            {
+              "slug": "set_nofollow",
+              "label": "所有post及page页面外链增加 <code>rel=\"noopener noreferrer nofollow\"</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "set_gopage",
+              "label": "站外链接改写为 <code>go?_=*</code>格式",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "blank",
+              "label": "增加“以新窗口形式打开链接”开关",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "url_seo": {
+        "reset_tag": "0",
+        "hide_category": "0",
+        "set_nofollow": "0",
+        "set_gopage": "0",
+        "blank": "0"
+      }
+    }
+  },
+  "7": {
+    "label": "杂项",
+    "description": "此处用于插件初始化启用的功能模块。此后也可以通过插件设置修改。",
+    "fields": [
+      {
+        "slug": "active",
+        "label": "TDK优化",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "通过自动或者自定义，优化页面标题、描述和关键词，以符合搜索引擎要求。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "tdk",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "图片优化",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "根据规则自动生成图片Title和ALT替代文本。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "img_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "链接优化",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "对分类页、Tag页及搜索页URL进行改写，及对出站链接添加nofollow属性及本域中转跳转。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "url_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "404监测",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "依赖蜘蛛分析插件，记录搜索引擎爬取404状态URL，以便于站长进行链接重定向。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "url_404",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "失效URL",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "自动扫描并检测网站页面出站链接，以及早发现并处理失效链接。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "broken",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "Sitemap",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "站点地图功能，可帮助搜索引擎更好地抓取网站内容。并支持通知谷歌和Bing。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "sitemap_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "active": {
+        "tdk": "1",
+        "img_seo": "1",
+        "url_seo": "1",
+        "url_404": "1",
+        "broken": "1",
+        "sitemap_seo": "1"
+      }
+    }
+  },
+  "8": {
+    "label": "完成配置",
+    "description": "完成",
+    "fields": [],
+    "default": {}
+  }
+}

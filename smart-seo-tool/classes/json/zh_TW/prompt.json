@@ -1,0 +1,95 @@
+{
+  "tdk-base": {
+    "content": [
+      "SEO本身不是一件容易的事情，但當您深入瞭解其中的所有要點，也沒有想象中那麼深奧。",
+      "學習<a href=\"https://www.wbolt.com/tw/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a>相關知識並實踐(特別是<a href=\"https://www.wbolt.com/tw/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO優化方案</a>)。",
+      "一般情況下，不建議將搜尋頁、標籤頁和作者頁新增至索引，但應該設定跟隨（即follow）。",
+      "推薦安裝<a href=\"https://www.wbolt.com/tw/plugins/skt?utm_source=sst\" target=\"_blank\">關鍵詞推薦外掛</a>，做好<a href=\"https://www.wbolt.com/tw/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK關鍵詞佈局和優化</a>工作。"
+    ]
+  },
+  "tdk-detail": {
+    "content": [
+      "SEO本身不是一件容易的事情，但當您深入瞭解其中的所有要點，也沒有想象中那麼深奧。",
+      "學習<a href=\"https://www.wbolt.com/tw/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a>相關知識並實踐(特別是<a href=\"https://www.wbolt.com/tw/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO優化方案</a>)。",
+      "一般情況下，不建議將搜尋頁、標籤頁和作者頁新增至索引，但應該設定跟隨（即follow）。",
+      "推薦安裝<a href=\"https://www.wbolt.com/tw/plugins/skt?utm_source=sst\" target=\"_blank\">關鍵詞推薦外掛</a>，做好<a href=\"https://www.wbolt.com/tw/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK關鍵詞佈局和優化</a>工作。"
+    ]
+  },
+  "tdk-category": {
+    "content": [
+      "SEO本身不是一件容易的事情，但當您深入瞭解其中的所有要點，也沒有想象中那麼深奧。",
+      "學習<a href=\"https://www.wbolt.com/tw/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a>相關知識並實踐(特別是<a href=\"https://www.wbolt.com/tw/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO優化方案</a>)。",
+      "一般情況下，不建議將搜尋頁、標籤頁和作者頁新增至索引，但應該設定跟隨（即follow）。",
+      "推薦安裝<a href=\"https://www.wbolt.com/tw/plugins/skt?utm_source=sst\" target=\"_blank\">關鍵詞推薦外掛</a>，做好<a href=\"https://www.wbolt.com/tw/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK關鍵詞佈局和優化</a>工作。"
+    ]
+  },
+  "tdk-more": {
+    "content": [
+      "SEO本身不是一件容易的事情，但當您深入瞭解其中的所有要點，也沒有想象中那麼深奧。",
+      "學習<a href=\"https://www.wbolt.com/tw/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a>相關知識並實踐(特別是<a href=\"https://www.wbolt.com/tw/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO優化方案</a>)。",
+      "一般情況下，不建議將搜尋頁、標籤頁和作者頁新增至索引，但應該設定跟隨（即follow）。",
+      "推薦安裝<a href=\"https://www.wbolt.com/tw/plugins/skt?utm_source=sst\" target=\"_blank\">關鍵詞推薦外掛</a>，做好<a href=\"https://www.wbolt.com/tw/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK關鍵詞佈局和優化</a>工作。"
+    ]
+  },
+  "image": {
+    "content": [
+      "<a href=\"https://www.wbolt.com/tw/what-is-and-how-should-you-use-an-alt-tag.html?utm_source=sst\" target=\"_blank\">圖片title和alt標籤</a>儘可能<a href=\"https://www.wbolt.com/tw/add-title-alt-to-images-in-wordpress.html?utm_source=sst\" target=\"_blank\">手動填寫</a>，勿忽視其重要性。",
+      "\"僅補充\"即無ALT和Title時應用優化規則，\"全覆蓋\"則全部應用優化規則。"
+    ]
+  },
+  "robots": {
+    "content": [
+      "robots.txt用於告知搜尋引擎頁面連結是否允許爬取或者索引。",
+      "您可以通過<a href=\"https://www.wbolt.com/tw/tools/robots-tester?utm_source=sst\" target=\"_blank\">Robots線上工具</a>來校驗robots.txt規則是否合規及檢測URL是否攔截蜘蛛爬取。",
+      "確保未啟用其他robots.txt生成器，且需刪除網站目錄robots.txt檔案，否則設定無法生效。",
+      "參考教程：“<a href=\"https://www.wbolt.com/tw/optimize-wordpress-robots-txt.html?utm_source=sst\" target=\"_blank\">如何編寫和優化WordPress網站的Robots.txt</a>”和”<a href=\"https://www.wbolt.com/tw/robots-txt.html?utm_source=sst\" target=\"_blank\">深入瞭解Robots.txt及如何規範地編寫</a>“"
+    ]
+  },
+  "other-verify": {
+    "content": [
+      "各大搜尋引擎的站長工具均可以通過多種方式進行驗證，包括DNS解析、上傳HTML檔案及新增meta元描述。",
+      "平日無需進行站長平臺認證時，可關閉此模組。",
+      "站長平臺快速入口：<a href=\"https://ziyuan.baidu.com/\" target=\"_blank\">百度</a>、<a href=\"https://search.google.com/search-console\" target=\"_blank\">谷歌GSC</a>、<a href=\"https://www.bing.com/webmasters/about\" target=\"_blank\">Bing</a>、<a href=\"https://zhanzhang.sogou.com/\" target=\"_blank\">搜狗</a>、<a href=\"https://zhanzhang.so.com/\" target=\"_blank\">360搜尋</a>、<a href=\"https://webmaster.yandex.com/\" target=\"_blank\">Yandex</a>、<a href=\"https://zhanzhang.sm.cn/\" target=\"_blank\">神馬搜尋</a>、<a href=\"https://zhanzhang.toutiao.com/\" target=\"_blank\">頭條搜尋</a>。"
+    ]
+  },
+  "sitemap": {
+    "content": [
+      "百度、360搜尋及頭條搜尋均不支援sitemap通知，但可以手動提交sitemap。",
+      "不同搜尋引擎Sitemap提交教程：<a href=\"https://www.wbolt.com/tw/submit-sitemap-url-to-baidu.html?utm_source=sst\" target=\"_blank\">百度搜尋資源平臺</a>，<a href=\"https://www.wbolt.com/tw/how-to-add-a-sitemap-to-bing-webmaster.html?utm_source=sst\" target=\"_blank\">Bing網站管理工具</a>，<a href=\"https://www.wbolt.com/tw/google-search-console.html#how-to-add-a-sitemap-in-google-search-console?utm_source=sst\" target=\"_blank\">谷歌搜尋控制檯</a>，<a href=\"https://www.wbolt.com/tw/how-to-add-a-sitemap-to-360-zhanzhang.html?utm_source=sst\" target=\"_blank\">360站長平臺</a>及<a href=\"https://www.wbolt.com/tw/how-to-set-a-sitemap-linksubmit-for-toutiao.html?utm_source=sst\" target=\"_blank\">頭條搜尋站長平臺</a>",
+      "為了提升推送效果，建議安裝<a href=\"https://www.wbolt.com/tw/plugins/bsl-pro?utm_source=sst\" target=\"_blank\">搜尋推送外掛</a>，以多種方式同時提交URL至搜尋引擎。",
+      "一般不建議將獨立頁面、標籤頁及作者頁列入Sitemap，站長需結合自身情況取捨。"
+    ]
+  },
+  "url-rewrite": {
+    "content": [
+      "<a href=\"https://www.wbolt.com/tw/internal-links-optimization.html?utm_source=sst\" target=\"_blank\">內部連結優化</a>是SEO重要組成部分，也是<a href=\"https://www.wbolt.com/tw/linkbait.html?utm_source=sst\" target=\"_blank\">連結誘餌</a>一種方式。",
+      "外部連結應該<a href=\"https://www.wbolt.com/tw/what-is-nofollow.html?utm_source=sst\" target=\"_blank\">新增Nofollow屬性</a>，防止頁面權重分發其他站點。",
+      "站長可以查閱SEO優化技巧之<a href=\"https://www.wbolt.com/tw/seo-link-building-tips.html?utm_source=sst\" target=\"_blank\">網站連結建設</a>，並加以實踐。"
+    ]
+  },
+  "url-monitor": {
+    "content": [
+      "<a href=\"https://www.wbolt.com/tw/guide-to-wp-404-pages.html?utm_source=sst\" target=\"_blank\">404響應碼</a>不代表網站一定存在該連結，可能是安全掃描、爬蟲等程式導致。",
+      "為協助您更好地判斷404錯誤，建議安裝<a href=\"https://www.wbolt.com/tw/plugins/spider-analyser?utm_source=sst\" target=\"_blank\">蜘蛛分析外掛</a>。",
+      "對於真實的404狀態連結，可以安裝<a href=\"https://www.wbolt.com/tw/plugins/bsl-pro?utm_source=sst\" target=\"_blank\">搜尋推送外掛</a>生成404連結集URL，提交通知搜尋引擎。"
+    ]
+  },
+  "url-broken": {
+    "content": [
+      "部分異常連結可能是國內無法訪問該站點導致，建議將此類域新增至排除域名列表。",
+      "對應<a href=\"https://www.wbolt.com/tw/wordpress-redirect.html?utm_source=sst\" target=\"_blank\">重定向連結</a>，建議將該URL修改為最終URL。",
+      "部分伺服器會拒絕系統檢測訪問，返回<a href=\"https://www.wbolt.com/tw/how-to-fix-a-403-forbidden-error.html?utm_source=sst\" target=\"_blank\">403</a>或者<a href=\"https://www.wbolt.com/tw/how-to-fix-a-403-forbidden-error.html?utm_source=sst\" target=\"_blank\">503</a>狀態，此種情況無需理會。"
+    ]
+  },
+  "url-redirection": {
+    "content": [
+      "基於安全原因，不支援跨域重定向。",
+      "<a href=\"https://www.wbolt.com/tw/wordpress-redirect.html?utm_source=sst\" target=\"_blank\">WordPress重定向最佳實踐</a>能夠最大化SEO和提升頁面速度。",
+      "關於301永久重定向或者302臨時重定向，可以閱讀<a href=\"https://www.wbolt.com/tw/301-redirects.html?utm_source=sst\" target=\"_blank\">301重定向與SEO優化間的關係</a>和<a href=\"https://www.wbolt.com/tw/301-or-302-redirects.html?utm_source=sst\" target=\"_blank\">基於SEO角度應選301還是302重定向</a>。",
+      "如果大量連結規則變更，建議新增規則進行匹配重定向，比如分類news改為blog，則可以新增301重定向規則：<code>/news/(*) 重定向至 /blog/$1</code>。"
+    ]
+  },
+  "url-redirection-detail": {
+    "content": "部分異常連結可能是國內無法訪問該站點導致，建議將此類域新增至排除域名列表；"
+  }
+}

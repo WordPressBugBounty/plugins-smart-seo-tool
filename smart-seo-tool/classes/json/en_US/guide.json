@@ -1,0 +1,387 @@
+{
+  "1": {
+    "label": "Search Visibility",
+    "description": "If you want search engines to index your website, set it to Index, otherwise, set it to Noindex.",
+    "fields": [
+      {
+        "slug": "public",
+        "label": "",
+        "type": "radio",
+        "attrs": {
+          "items": [
+            {
+              "value": "0",
+              "label": "No Index"
+            },
+            {
+              "value": "1",
+              "label": "Index"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "public": "1"
+    }
+  },
+  "2": {
+    "label": "Website Type",
+    "description": "Based on the content of your site, select the option that matches your site.",
+    "fields": [
+      {
+        "slug": "type",
+        "label": "Type",
+        "type": "radio",
+        "attrs": {
+          "items": [
+            {
+              "value": "10",
+              "label": "Blog"
+            },
+            {
+              "value": "11",
+              "label": "E-commerce"
+            },
+            {
+              "value": "12",
+              "label": "News"
+            },
+            {
+              "value": "13",
+              "label": "Offline business"
+            },
+            {
+              "value": "14",
+              "label": "Official Website"
+            },
+            {
+              "value": "15",
+              "label": "Portfolio"
+            },
+            {
+              "value": "17",
+              "label": "Others"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "type": ""
+    }
+  },
+  "3": {
+    "label": "Basic",
+    "description": "Just for homepage TDK such as title, description and keywords. Other pages TDK, after completing the plugin configuration, you can enter the TDK optimization settings.",
+    "fields": [
+      {
+        "slug": "separator",
+        "label": "Title separator",
+        "type": "wbs-selector-separators",
+        "attrs": {}
+      },
+      {
+        "slug": "index_tdk",
+        "label": "Home TDK",
+        "type": "wbs-tdk-setter",
+        "attrs": {}
+      }
+    ],
+    "default": {
+      "separator": "",
+      "index_tdk": {}
+    }
+  },
+  "4": {
+    "label": "Index & Sitemap",
+    "description": "Set the type of content your website allows search engines to index. If you are unsure, default settings is fine. The sitemap will also be generated based on this setting.",
+    "fields": [
+      {
+        "slug": "seo_index",
+        "label": "Categories that allow search engines to index",
+        "type": "checkbox-switch",
+        "attrs": {
+          "items": [
+            {
+              "value": "post",
+              "label": "Allow search engines to index \"Post\" URLs"
+            },
+            {
+              "value": "page",
+              "label": "Allow search engines to index \"Page\" URLs"
+            },
+            {
+              "value": "category",
+              "label": "Allow search engines to index \"Category\" URLs"
+            },
+            {
+              "value": "tag",
+              "label": "Allow search engines to index \"Tag\" URLs"
+            },
+            {
+              "value": "search",
+              "label": "Allow search engines to index \"Search results\" URLs"
+            },
+            {
+              "value": "author",
+              "label": "Allow search engines to index \"Author\" URLs"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "seo_index": []
+    }
+  },
+  "5": {
+    "label": "robots.txt",
+    "description": "Notify search engines the URLs can be crawled or cannot be crawled. <a href=\"https://www.wbolt.com/robots-txt.html\" target=\"_blank\">Learn more></a>",
+    "fields": [
+      {
+        "slug": "robots_txt",
+        "label": "Rules",
+        "type": "robots-setter",
+        "attrs": {
+          "btn_label": "Preset Rules"
+        }
+      }
+    ],
+    "default": {
+      "robots_txt": ""
+    }
+  },
+  "6": {
+    "label": "URL rules",
+    "description": "Optimize the rules for in-site links and outbound links so as to present them to search engine spiders in a better way.",
+    "fields": [
+      {
+        "slug": "innser_links",
+        "label": "Internal links",
+        "type": "group",
+        "group": {
+          "fields": [
+            {
+              "slug": "reset_tag",
+              "label": "Rewrite the tag URLs to <code>/tag/%tag_id%</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "hide_category",
+              "label": "Hide category <code><del>category</del>/catename/…</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "outer_links",
+        "label": "External links",
+        "type": "group",
+        "group": {
+          "fields": [
+            {
+              "slug": "set_nofollow",
+              "label": "External links on posts and pages add <code>rel=\"noopener noreferrer nofollow\"</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "set_gopage",
+              "label": "Rewrite external links to <code>go?_=*</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "blank",
+              "label": "Open link in new tab",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "url_seo": {
+        "reset_tag": "0",
+        "hide_category": "0",
+        "set_nofollow": "0",
+        "set_gopage": "0",
+        "blank": "0"
+      }
+    }
+  },
+  "7": {
+    "label": "Miscellaneous",
+    "description": "This is used to initialize and enable the function module of the plug-in. It can also be modified through plug-in settings afterwards.",
+    "fields": [
+      {
+        "slug": "active",
+        "label": "TDK",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "Optimize page titles, descriptions, and keywords automatically or customarily to meet search engine requirements.",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "tdk",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "IMG SEO",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "Automatically generate image Title and ALT alternative text according to rules.",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "img_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "URL rules",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "Rewrite the URLs of categories, tags, and search pages, and add nofollow attributes and local domain redirects to outbound links.",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "url_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "404",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "Rely on spider analysis plugin to record the 404 status URLs crawled by search engines, so that webmasters can redirect links.",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "url_404",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "Broken URLs",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "Automatically scan and detect outbound links on website pages to detect and handle broken links early.",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "broken",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "Sitemap",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "The sitemap feature can help search engines better crawl website content. And support notifications to Google and Bing.",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "sitemap_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "active": {
+        "tdk": "1",
+        "img_seo": "1",
+        "url_seo": "1",
+        "url_404": "1",
+        "broken": "1",
+        "sitemap_seo": "1"
+      }
+    }
+  },
+  "8": {
+    "label": "Finished",
+    "description": "Configuration Complete",
+    "fields": [],
+    "default": {}
+  }
+}

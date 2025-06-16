@@ -1,0 +1,128 @@
+[
+  {
+    "label": "TDK",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "IMG SEO",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Rewrite",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "404 Monitoring",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Broken URL",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Sitemap",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Robots.txt",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Webmaster Tools Verification",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": 1,
+      "pro": 1
+    }
+  },
+  {
+    "label": "Redirect",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "-",
+      "pro": 1
+    }
+  },
+  {
+    "label": "Advanced Sitemap",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "-",
+      "pro": 1
+    }
+  },
+  {
+    "label": "Aff Link",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "-",
+      "pro": "Coming soon"
+    }
+  },
+  {
+    "label": "Internal Link",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "-",
+      "pro": "Coming soon"
+    }
+  },
+  {
+    "label": "Advanced Link Detector",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "-",
+      "pro": "Coming soon"
+    }
+  },
+  {
+    "label": "More Features",
+    "slug": "",
+    "remark": "",
+    "available": {
+      "free": "-",
+      "pro": "Coming soon"
+    }
+  }
+]

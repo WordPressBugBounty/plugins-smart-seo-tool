@@ -1,0 +1,387 @@
+{
+  "1": {
+    "label": "搜尋可見性",
+    "description": "根據實際情況，設定網站的搜尋引擎可見性。如果網站正式對外，請選擇“搜尋引擎可見”；否則請選擇“暫不開放索引”。",
+    "fields": [
+      {
+        "slug": "public",
+        "label": "",
+        "type": "radio",
+        "attrs": {
+          "items": [
+            {
+              "value": "0",
+              "label": "暫不開放索引"
+            },
+            {
+              "value": "1",
+              "label": "搜尋引擎可見（編入索引）"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "public": "1"
+    }
+  },
+  "2": {
+    "label": "網站型別",
+    "description": "根據網站內容，選擇符合您的網站的選項。",
+    "fields": [
+      {
+        "slug": "type",
+        "label": "網站型別",
+        "type": "radio",
+        "attrs": {
+          "items": [
+            {
+              "value": "10",
+              "label": "個人部落格"
+            },
+            {
+              "value": "11",
+              "label": "電子商務"
+            },
+            {
+              "value": "12",
+              "label": "新聞資訊"
+            },
+            {
+              "value": "13",
+              "label": "線下業務"
+            },
+            {
+              "value": "14",
+              "label": "企業官網"
+            },
+            {
+              "value": "15",
+              "label": "作品集網站"
+            },
+            {
+              "value": "17",
+              "label": "其他型別"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "type": ""
+    }
+  },
+  "3": {
+    "label": "基本資訊",
+    "description": "此處僅設定網站標題、描述及關鍵詞等首頁TDK基本資訊。其他頁面TDK資訊，完成外掛配置後可進入TDK優化設定。",
+    "fields": [
+      {
+        "slug": "separator",
+        "label": "標題分隔符號",
+        "type": "wbs-selector-separators",
+        "attrs": {}
+      },
+      {
+        "slug": "index_tdk",
+        "label": "網站主頁 TDK",
+        "type": "wbs-tdk-setter",
+        "attrs": {}
+      }
+    ],
+    "default": {
+      "separator": "",
+      "index_tdk": {}
+    }
+  },
+  "4": {
+    "label": "索引&Sitemap",
+    "description": "可根據實際情況設定網站允許搜尋引擎編入索引的內容型別。如不確定，使用預設設定即可。sitemap也基於此生成。",
+    "fields": [
+      {
+        "slug": "seo_index",
+        "label": "允許搜尋引擎編入索引的內容型別",
+        "type": "checkbox-switch",
+        "attrs": {
+          "items": [
+            {
+              "value": "post",
+              "label": "允許搜尋引擎索引\"文章\"型別URL"
+            },
+            {
+              "value": "page",
+              "label": "允許搜尋引擎索引\"頁面\"型別URL"
+            },
+            {
+              "value": "category",
+              "label": "允許搜尋引擎索引\"分類目錄\"型別URL"
+            },
+            {
+              "value": "tag",
+              "label": "允許搜尋引擎索引\"標籤\"型別URL"
+            },
+            {
+              "value": "search",
+              "label": "允許搜尋引擎索引\"搜尋結果\"型別URL"
+            },
+            {
+              "value": "author",
+              "label": "允許搜尋引擎索引\"作者\"型別URL"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "seo_index": []
+    }
+  },
+  "5": {
+    "label": "robots.txt",
+    "description": "用來告訴搜尋引擎，網站上的哪些頁面可以抓取，哪些頁面不能抓取。<a href=\"https://www.wbolt.com/robots-txt.html\" target=\"_blank\">瞭解更多></a>",
+    "fields": [
+      {
+        "slug": "robots_txt",
+        "label": "規則",
+        "type": "robots-setter",
+        "attrs": {
+          "btn_label": "預設規則"
+        }
+      }
+    ],
+    "default": {
+      "robots_txt": ""
+    }
+  },
+  "6": {
+    "label": "連結規則",
+    "description": "此處用於針對站內連結及出站連結優化規則設定，以更好的方式呈現給搜尋引擎蜘蛛。",
+    "fields": [
+      {
+        "slug": "innser_links",
+        "label": "站內連結",
+        "type": "group",
+        "group": {
+          "fields": [
+            {
+              "slug": "reset_tag",
+              "label": "將標籤連結改寫為 <code>/tag/%tag_id%</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "hide_category",
+              "label": "隱藏分類連結字首名稱 <code><del>category</del>/catename/…</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "outer_links",
+        "label": "站外連結",
+        "type": "group",
+        "group": {
+          "fields": [
+            {
+              "slug": "set_nofollow",
+              "label": "所有post及page頁面外鏈增加 <code>rel=\"noopener noreferrer nofollow\"</code>",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "set_gopage",
+              "label": "站外連結改寫為 <code>go?_=*</code>格式",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            },
+            {
+              "slug": "blank",
+              "label": "增加“以新視窗形式開啟連結”開關",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "url_seo": {
+        "reset_tag": "0",
+        "hide_category": "0",
+        "set_nofollow": "0",
+        "set_gopage": "0",
+        "blank": "0"
+      }
+    }
+  },
+  "7": {
+    "label": "雜項",
+    "description": "此處用於外掛初始化啟用的功能模組。此後也可以通過外掛設定修改。",
+    "fields": [
+      {
+        "slug": "active",
+        "label": "TDK優化",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "通過自動或者自定義，優化頁面標題、描述和關鍵詞，以符合搜尋引擎要求。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "tdk",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "圖片優化",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "根據規則自動生成圖片Title和ALT替代文字。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "img_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "連結優化",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "對分類頁、Tag頁及搜尋頁URL進行改寫，及對出站連結新增nofollow屬性及本域中轉跳轉。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "url_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "404監測",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "依賴蜘蛛分析外掛，記錄搜尋引擎爬取404狀態URL，以便於站長進行連結重定向。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "url_404",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "失效URL",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "自動掃描並檢測網站頁面出站連結，以及早發現並處理失效連結。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "broken",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "slug": "active",
+        "label": "Sitemap",
+        "type": "wbs-opt-box",
+        "attrs": {
+          "desc": "站點地圖功能，可幫助搜尋引擎更好地抓取網站內容。並支援通知谷歌和Bing。",
+          "doc": ""
+        },
+        "group": {
+          "fields": [
+            {
+              "slug": "sitemap_seo",
+              "label": "",
+              "type": "switch",
+              "attrs": {
+                "inactive-value": "0",
+                "active-value": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "active": {
+        "tdk": "1",
+        "img_seo": "1",
+        "url_seo": "1",
+        "url_404": "1",
+        "broken": "1",
+        "sitemap_seo": "1"
+      }
+    }
+  },
+  "8": {
+    "label": "完成配置",
+    "description": "完成",
+    "fields": [],
+    "default": {}
+  }
+}

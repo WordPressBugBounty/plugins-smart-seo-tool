@@ -1,0 +1,95 @@
+{
+  "tdk-base": {
+    "content": [
+      "SEO itself is not an easy task, but when you understand all the key points in depth, it is not as complicated as you think.",
+      "Learn about <a href=\"https://www.wbolt.com/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a> (especially <a href=\"https://www.wbolt.com/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO strategies</a>).",
+      "Not recommended to add search, tag & author pages to the index URLs, but they should be set to follow.",
+      "Recommended to install the <a href=\"https://www.wbolt.com/plugins/skt?utm_source=sst\" target=\"_blank\">Smart Keywords Tool</a> and do a good job of <a href=\"https://www.wbolt.com/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK keyword optimization</a>."
+    ]
+  },
+  "tdk-detail": {
+    "content": [
+      "SEO itself is not an easy task, but when you understand all the key points in depth, it is not as complicated as you think.",
+      "Learn about <a href=\"https://www.wbolt.com/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a> (especially <a href=\"https://www.wbolt.com/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO strategies</a>).",
+      "Not recommended to add search, tag & author pages to the index URLs, but they should be set to follow.",
+      "Recommended to install the <a href=\"https://www.wbolt.com/plugins/skt?utm_source=sst\" target=\"_blank\">Smart Keywords Tool</a> and do a good job of <a href=\"https://www.wbolt.com/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK keyword optimization</a>."
+    ]
+  },
+  "tdk-category": {
+    "content": [
+      "SEO itself is not an easy task, but when you understand all the key points in depth, it is not as complicated as you think.",
+      "Learn about <a href=\"https://www.wbolt.com/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a> (especially <a href=\"https://www.wbolt.com/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO strategies</a>).",
+      "Not recommended to add search, tag & author pages to the index URLs, but they should be set to follow.",
+      "Recommended to install the <a href=\"https://www.wbolt.com/plugins/skt?utm_source=sst\" target=\"_blank\">Smart Keywords Tool</a> and do a good job of <a href=\"https://www.wbolt.com/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK keyword optimization</a>."
+    ]
+  },
+  "tdk-more": {
+    "content": [
+       "SEO itself is not an easy task, but when you understand all the key points in depth, it is not as complicated as you think.",
+       "Learn about <a href=\"https://www.wbolt.com/learn/wp-seo?utm_source=sst\" target=\"_blank\">WordPress SEO</a> (especially <a href=\"https://www.wbolt.com/wordpress-seo-tips.html?utm_source=sst\" target=\"_blank\">WordPress SEO strategies</a>).",
+       "Not recommended to add search, tag & author pages to the index URLs, but they should be set to follow.",
+       "Recommended to install the <a href=\"https://www.wbolt.com/plugins/skt?utm_source=sst\" target=\"_blank\">Smart Keywords Tool</a> and do a good job of <a href=\"https://www.wbolt.com/keywords-seo-tips.html?utm_source=sst\" target=\"_blank\">TDK keyword optimization</a>."
+    ]
+  },
+  "image": {
+    "content": [
+      "<a href=\"https://www.wbolt.com/what-is-and-how-should-you-use-an-alt-tag.html?utm_source=sst\" target=\"_blank\">Image title and alt txt</a> should be <a href=\"https://www.wbolt.com/add-title-alt-to-images-in-wordpress.html?utm_source=sst\" target=\"_blank\">filled in manually</a> as much as possible. Don't ignore its importance.",
+      "\"Only supplement\" means applying the optimization rules when there is no ALT and Title, and \"Full coverage\" means applying all the optimization rules."
+    ]
+  },
+  "robots": {
+    "content": [
+      "Robots.txt is used to tell search engines whether page links are allowed to be crawled or indexed.",
+      "You can use the <a href=\"https://www.wbolt.com/tools/robots-tester?utm_source=sst\" target=\"_blank\">Robots online tool</a> to verify whether the robots.txt rules are compliant and detect whether the URL is blocked by spiders.",
+      "Make sure no other robots.txt generators are enabled and delete the robots.txt file in the website directory, otherwise the settings will not take effect.",
+      "Reference tutorials: <a href=\"https://www.wbolt.com/optimize-wordpress-robots-txt.html?utm_source=sst\" target=\"_blank\">How to write and optimize Robots.txt for WordPress</a> and <a href=\"https://www.wbolt.com/robots-txt.html?utm_source=sst\" target=\"_blank\">In-depth understanding of Robots.txt</a>."
+    ]
+  },
+  "other-verify": {
+    "content": [
+      "The webmaster tools of major search engines can be verified in a variety of ways, including DNS resolution, uploading HTML files, and adding meta descriptions.",
+      "This module can be disabled if webmaster platform authentication is not required on weekdays.",
+      "Webmaster platform quick entry: <a href=\"https://ziyuan.baidu.com/\" target=\"_blank\">Baidu</a>, <a href=\"https://search.google.com/search-console\" target=\"_blank\">Google GSC</a>, <a href=\"https://www.bing.com/webmasters/about\" target=\"_blank\">Bing</a>, <a href=\"https://zhanzhang.sogou.com/\" target=\"_blank\">Sogou</a>, <a href=\"https://zhanzhang.so.com/\" target=\"_blank\">360 search</a>, <a href=\"https://webmaster.yandex.com/\" target=\"_blank\">Yandex</a>, <a href=\"https://zhanzhang.sm.cn/\" target=\"_blank\">Shenma search</a>, <a href=\"https://zhanzhang.toutiao.com/\" target=\"_blank\">Toutiao search</a>."
+    ]
+  },
+  "sitemap": {
+    "content": [
+      "Baidu, 360 search and Toutiao search do not support sitemap notifications, but sitemaps can be submitted manually.",
+      "XML sitemap for different search engines: <a href=\"https://www.wbolt.com/submit-sitemap-url-to-baidu.html?utm_source=sst\" target=\"_blank\">Baidu Search Resource Platform</a>, <a href=\"https://www.wbolt.com/how-to-add-a-sitemap-to-bing-webmaster.html?utm_source=sst\" target=\"_blank\">Bing Webmaster Tool</a>, <a href=\"https://www.wbolt.com/google-search-console.html#how-to-add-a-sitemap-in-google-search-console?utm_source=sst\" target=\"_blank\">Google Search Console</a>, <a href=\"https://www.wbolt.com/ href=\"https://www.wbolt.com/how-to-add-a-sitemap-to-360-zhanzhang.html?utm_source=sst\" target=\"_blank\">360 Webmaster Platform</a> and <a href=\"https://www.wbolt.com/how-to-set-a-sitemap-linksubmit-for-toutiao.html?utm_source=sst\" target=\"_blank\">Toutiao Search Webmaster Platform</a>",
+      "In order to improve the indexing effect, recommended to install the <a href=\"https://www.wbolt.com/plugins/bsl-pro?utm_source=sst\" target=\"_blank\">search push plug-in</a> to submit URLs to search engines in multiple ways at the same time.",
+      "Recommended to include independent tag & author pages in the Sitemap. Webmasters need to make choices based on their own circumstances."
+    ]
+  },
+  "url-rewrite": {
+    "content": [
+      "<a href=\"https://www.wbolt.com/internal-links-optimization.html?utm_source=sst\" target=\"_blank\">Internal link optimization</a> is an important part of SEO and is also a form of <a href=\"https://www.wbolt.com/linkbait.html?utm_source=sst\" target=\"_blank\"> link bait</a>.",
+      "External links should <a href=\"https://www.wbolt.com/what-is-nofollow.html?utm_source=sst\" target=\"_blank\">have the Nofollow attribute added</a> to prevent the page weight from being distributed to other sites.",
+      "Webmasters can refer to SEO optimization techniques <a href=\"https://www.wbolt.com/seo-link-building-tips.html?utm_source=sst\" target=\"_blank\">link building</a> and put it into practice."
+    ]
+  },
+  "url-monitor": {
+    "content": [
+      "<a href=\"https://www.wbolt.com/guide-to-wp-404-pages.html?utm_source=sst\" target=\"_blank\">404 code</a> does not mean that the link must exist on the website. It may be caused by security scanning, crawler and other programs.",
+      "To help you better judge 404 errors, recommended to install the <a href=\"https://www.wbolt.com/plugins/spider-analyser?utm_source=sst\" target=\"_blank\">spider analyser plugin</a>.",
+      "For real 404 status links, you can install <a href=\"https://www.wbolt.com/plugins/bsl-pro?utm_source=sst\" target=\"_blank\">BSL plugin</a> to generate 404 link set URL and submit it to notify the search engine."
+    ]
+  },
+  "url-broken": {
+    "content": [
+      "Some abnormal links may be caused by inaccessibility in some areas. Recommended to add such domains to the exclusion domain list.",
+      "Corresponding to the <a href=\"https://www.wbolt.com/wordpress-redirect.html?utm_source=sst\" target=\"_blank\">redirect link</a>, recommended to change the URL to the final URL.",
+      "Some servers will deny system detection access and return <a href=\"https://www.wbolt.com/how-to-fix-a-403-forbidden-error.html?utm_source=sst\" target=\"_blank\">403</a> or <a href=\"https://www.wbolt.com/how-to-fix-a-403-forbidden-error.html?utm_source=sst\" target=\"_blank\">503</a> status. In this case, you don't need to pay attention."
+    ]
+  },
+  "url-redirection": {
+    "content": [
+      "For security reasons, cross-domain redirects are not supported.",
+      "<a href=\"https://www.wbolt.com/wordpress-redirect.html?utm_source=sst\" target=\"_blank\">WordPress redirect best practices</a> to maximize SEO and improve page speed.",
+      "Regarding 301 permanent redirection or 302 temporary redirection, you can read <a href=\"https://www.wbolt.com/301-redirects.html?utm_source=sst\" target=\"_blank\">301 redirection and SEO</a> and <a href=\"https://www.wbolt.com/301-or-302-redirection.html?utm_source=sst\" target=\"_blank\">301 vs 302</a>.",
+      "If most link rules are changed, recommended to add new rules for matching redirection. For example, if the category news is changed to blog, you can add a 301 redirect rule: <code>/news/(*) redirects to /blog/$1</code>."
+    ]
+  },
+  "url-redirection-detail": {
+    "content": "Some abnormal links may be caused by inaccessibility in some areas. Recommended to add such domains to the exclusion domain list."
+  }
+}

@@ -32,23 +32,21 @@ class Smart_SEO_Tool_Sitemap extends Smart_SEO_Tool_Base
             if (preg_match('#plugins/smart-seo-tool#', $body)) {
                 $ret['code'] = 1;
                 $ret['data'] = $site_map;
-                $ret['desc'] = '当前Sitemap:' . $site_map;
+                $ret['desc'] = _x('当前Sitemap:', 'sitemap处理', WB_SST_TD) . $site_map;
             } else {
                 $ret['code'] = 2;
-                $ret['desc'] = '插件检测到其他插件生成Sitemap，需关闭及删除其他插件地图，否则本插件无法生成Sitemap。';
+                $ret['desc'] = _x('插件检测到其他插件生成Sitemap，需关闭及删除其他插件地图，否则本插件无法生成Sitemap。', 'sitemap处理', WB_SST_TD);
             }
         } else if ($cnf['active']) {
             $ret['code'] = 3;
-            $ret['desc'] = '未能正常生成Sitemap，请检查rewrite规则或者提交工单。';
+            $ret['desc'] = _x('未能正常生成Sitemap，请检查rewrite规则或者提交工单。', 'sitemap处理', WB_SST_TD);
         }
 
         return $ret;
     }
 
 
-    public static function cacheXml()
-    {
-    }
+    public static function cacheXml() {}
 
 
     public static function post_types()
@@ -392,9 +390,9 @@ class Smart_SEO_Tool_Sitemap extends Smart_SEO_Tool_Base
         } else {
             $xml = self::content($param);
         }
-        if(!$xml){
+        if (!$xml) {
             unset($wp->query_vars['wb_sitemap']);
-            $wp->query_vars['pagename'] = 'sitemap-'.$param;
+            $wp->query_vars['pagename'] = 'sitemap-' . $param;
             //print_r($wp->query_vars);
             return;
         }
@@ -513,7 +511,7 @@ class Smart_SEO_Tool_Sitemap extends Smart_SEO_Tool_Base
             if(!$taxonomy){
                 continue;
             }*/
-            $num = wp_count_terms(array('hide_empty' => true,'taxonomy'=>$tax_name));
+            $num = wp_count_terms(array('hide_empty' => true, 'taxonomy' => $tax_name));
             if ($num < 1) {
                 continue;
             }
@@ -701,7 +699,7 @@ class Smart_SEO_Tool_Sitemap extends Smart_SEO_Tool_Base
                 break;
         }
 
-        if(empty($xml)){
+        if (empty($xml)) {
             return '';
         }
 
