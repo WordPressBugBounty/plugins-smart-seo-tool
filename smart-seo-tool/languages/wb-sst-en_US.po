@@ -13,9 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;"
-"_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;"
-"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 3.4.4\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -103,12 +103,9 @@ msgstr "TDK"
 
 #: classes/admin.class.php:126
 msgctxt "配置项"
-msgid ""
-"通过自动或者自定义，优化页面标题、描述和关键词，以符合搜索引"
-"擎要求。"
+msgid "通过自动或者自定义，优化页面标题、描述和关键词，以符合搜索引擎要求。"
 msgstr ""
-"Automatically or customly optimize page titles, "
-"descriptions, and keywords."
+"Automatically or customly optimize page titles, descriptions, and keywords."
 
 #: classes/admin.class.php:131
 msgctxt "配置项"
@@ -119,8 +116,8 @@ msgstr "Image SEO"
 msgctxt "配置项"
 msgid "根据规则自动生成图片Title和ALT替代文本。"
 msgstr ""
-"Automatically generate image Title and ALT alternative text "
-"according to rules."
+"Automatically generate image Title and ALT alternative text according to "
+"rules."
 
 #: classes/admin.class.php:138
 msgctxt "配置项"
@@ -130,12 +127,11 @@ msgstr "URLs Rewrite"
 #: classes/admin.class.php:140
 msgctxt "配置项"
 msgid ""
-"对分类页、Tag页及搜索页URL进行改写，及对出站链接添加nofollow"
-"属性及本域中转跳转。"
+"对分类页、Tag页及搜索页URL进行改写，及对出站链接添加nofollow属性及本域中转跳"
+"转。"
 msgstr ""
-"Rewrite the URLs of category pages, Tag pages and search "
-"pages, and add nofollow attributes to outbound links and "
-"inbound bounces in this domain."
+"Rewrite the URLs of category pages, Tag pages and search pages, and add "
+"nofollow attributes to outbound links and inbound bounces in this domain."
 
 #: classes/admin.class.php:145
 msgctxt "配置项"
@@ -145,12 +141,10 @@ msgstr "404 monitoring"
 #: classes/admin.class.php:147
 msgctxt "配置项"
 msgid ""
-"依赖蜘蛛分析插件，记录搜索引擎爬取404状态URL，以便于站长进行"
-"链接重定向。"
+"依赖蜘蛛分析插件，记录搜索引擎爬取404状态URL，以便于站长进行链接重定向。"
 msgstr ""
-"Rely on the spider analysis plugin to record the search "
-"engine crawling 404 status URL, so as to facilitate the "
-"webmaster for link redirection."
+"Rely on the spider analysis plugin to record the search engine crawling 404 "
+"status URL, so as to facilitate the webmaster for link redirection."
 
 #: classes/admin.class.php:152
 msgctxt "配置项"
@@ -159,12 +153,10 @@ msgstr "Broken URLs"
 
 #: classes/admin.class.php:154
 msgctxt "配置项"
-msgid ""
-"自动扫描并检测网站页面出站链接，以及早发现并处理失效链接。"
+msgid "自动扫描并检测网站页面出站链接，以及早发现并处理失效链接。"
 msgstr ""
-"Automatically scans and detects outbound links to website "
-"pages, and detects and handles broken links as early as "
-"possible."
+"Automatically scans and detects outbound links to website pages, and detects "
+"and handles broken links as early as possible."
 
 #: classes/admin.class.php:159
 msgctxt "配置项"
@@ -173,13 +165,10 @@ msgstr "Sitemap"
 
 #: classes/admin.class.php:161
 msgctxt "配置项"
-msgid ""
-"站点地图功能，可帮助搜索引擎更好地抓取网站内容。并支持通知谷"
-"歌和bing。"
+msgid "站点地图功能，可帮助搜索引擎更好地抓取网站内容。并支持通知谷歌和bing。"
 msgstr ""
-"Site map function, which can help search engines to crawl "
-"website content better. And support notification to google "
-"and bing."
+"Site map function, which can help search engines to crawl website content "
+"better. And support notification to google and bing."
 
 #: classes/admin.class.php:166
 msgctxt "配置项"
@@ -189,11 +178,10 @@ msgstr "robots.txt"
 #: classes/admin.class.php:168
 msgctxt "配置项"
 msgid ""
-"robots.txt用来告诉搜索引擎，网站上的哪些页面可以抓取，哪些页"
-"面不能抓取。"
+"robots.txt用来告诉搜索引擎，网站上的哪些页面可以抓取，哪些页面不能抓取。"
 msgstr ""
-"Robots.txt is used to tell search engines which pages on the "
-"website can be crawled and which pages cannot be crawled."
+"Robots.txt is used to tell search engines which pages on the website can be "
+"crawled and which pages cannot be crawled."
 
 #: classes/admin.class.php:173
 msgctxt "配置项"
@@ -202,12 +190,10 @@ msgstr "Redirect"
 
 #: classes/admin.class.php:175
 msgctxt "配置项"
-msgid ""
-"支持因网站改版及URL变动等原因，实现站内链接重定向支持，有利于"
-"SEO。"
+msgid "支持因网站改版及URL变动等原因，实现站内链接重定向支持，有利于SEO。"
 msgstr ""
-"It supports the redirection of internal links due to website "
-"revision and URL changes, which is beneficial to SEO."
+"It supports the redirection of internal links due to website revision and "
+"URL changes, which is beneficial to SEO."
 
 #: classes/admin.class.php:180, classes/admin.class.php:188,
 #: classes/admin.class.php:210, classes/admin.class.php:318
@@ -240,27 +226,21 @@ msgstr "ID"
 #: classes/admin.class.php:189, classes/admin.class.php:211
 msgctxt "配置项"
 msgid "WordPress后台“设置-常规”下所设置的站点标题。"
-msgstr ""
-"The site title set under \"Settings-General\" in the "
-"WordPress admin."
+msgstr "The site title set under \"Settings-General\" in the WordPress admin."
 
 #: classes/admin.class.php:193
 msgctxt "配置项"
 msgid ""
-"即图片文件后缀名前面的名称，如wbolt-smart-seo-tool.jpg的文件"
-"名称为wbolt smart seo tool。默认会清除掉名称里面的符号和数"
-"字。"
+"即图片文件后缀名前面的名称，如wbolt-smart-seo-tool.jpg的文件名称为wbolt "
+"smart seo tool。默认会清除掉名称里面的符号和数字。"
 msgstr ""
-"For example, the file name of wbolt-smart-seo-tool.jpg is "
-"wbolt smart seo tool. By default, the symbols and numbers in "
-"the name will be cleared."
+"For example, the file name of wbolt-smart-seo-tool.jpg is wbolt smart seo "
+"tool. By default, the symbols and numbers in the name will be cleared."
 
 #: classes/admin.class.php:197
 msgctxt "配置项"
 msgid "即图片所在文章或者页面的标题。"
-msgstr ""
-"That is, the img corresponds to the title of the post or "
-"page."
+msgstr "That is, the img corresponds to the title of the post or page."
 
 #: classes/admin.class.php:200
 msgctxt "配置项"
@@ -276,8 +256,8 @@ msgstr "The direct category of the corresponding post."
 msgctxt "配置项"
 msgid "即多个相同title和alt时，在后面添加“-序号”。"
 msgstr ""
-"That is, when there are multiple identical titles and alts, "
-"add “-sequence number” at the end."
+"That is, when there are multiple identical titles and alts, add “-sequence "
+"number” at the end."
 
 #: classes/admin.class.php:214, classes/admin.class.php:319
 msgctxt "配置项"
@@ -286,12 +266,10 @@ msgstr "Separator"
 
 #: classes/admin.class.php:215
 msgctxt "配置项"
-msgid ""
-"指插件TDK优化-常规所设定的用于标题内部词组或短句连接的符号。"
+msgid "指插件TDK优化-常规所设定的用于标题内部词组或短句连接的符号。"
 msgstr ""
-"Refers to the symbols set by the TDK Optimization-General "
-"plug-in for connecting phrases or short sentences within the "
-"title."
+"Refers to the symbols set by the TDK Optimization-General plug-in for "
+"connecting phrases or short sentences within the title."
 
 #: classes/admin.class.php:218, classes/admin.class.php:320
 msgctxt "配置项"
@@ -300,19 +278,15 @@ msgstr "Site subtitle"
 
 #: classes/admin.class.php:219
 msgctxt "配置项"
-msgid ""
-"WordPress后台“设置-常规”下所设置的副标题，一般仅用于网站首"
-"页。"
+msgid "WordPress后台“设置-常规”下所设置的副标题，一般仅用于网站首页。"
 msgstr ""
-"The subtitle set under \"Settings-General\" in the WordPress "
-"backend is generally only used for the homepage of the "
-"website."
+"The subtitle set under \"Settings-General\" in the WordPress backend is "
+"generally only used for the homepage of the website."
 
 #: classes/admin.class.php:223
 msgctxt "配置项"
 msgid "即发布文章或者页面时所填写的标题。"
-msgstr ""
-"That is, the title filled in when publishing an post or page."
+msgstr "That is, the title filled in when publishing an post or page."
 
 #: classes/admin.class.php:226, classes/admin.class.php:349
 msgctxt "配置项"
@@ -322,8 +296,7 @@ msgstr "Author name"
 #: classes/admin.class.php:227
 msgctxt "配置项"
 msgid "作者名称-当前文章作者的昵称。"
-msgstr ""
-"Author name - Nickname of the author of the current post."
+msgstr "Author name - Nickname of the author of the current post."
 
 #: classes/admin.class.php:230, classes/admin.class.php:327,
 #: classes/admin.class.php:338
@@ -333,13 +306,11 @@ msgstr "Direct category"
 
 #: classes/admin.class.php:231
 msgctxt "配置项"
-msgid ""
-"当前文章或者列表直接归属的分类，归属多个分类时，仅取最底层分"
-"类的一个。"
+msgid "当前文章或者列表直接归属的分类，归属多个分类时，仅取最底层分类的一个。"
 msgstr ""
-"The category to which the current post or list directly "
-"belongs. If it belongs to multiple categories, only the one "
-"in the lowest level category is taken."
+"The category to which the current post or list directly belongs. If it "
+"belongs to multiple categories, only the one in the lowest level category is "
+"taken."
 
 #: classes/admin.class.php:234, classes/admin.class.php:328,
 #: classes/admin.class.php:339
@@ -351,8 +322,7 @@ msgstr "Parent category"
 msgctxt "配置项"
 msgid "当前文章或者分类归属的一级分类。"
 msgstr ""
-"The first-level category to which the current post or "
-"category belongs."
+"The first-level category to which the current post or category belongs."
 
 #: classes/admin.class.php:238, classes/admin.class.php:329,
 #: classes/admin.class.php:335
@@ -362,12 +332,10 @@ msgstr "Description"
 
 #: classes/admin.class.php:239
 msgctxt "配置项"
-msgid ""
-"指编辑文章或者页面时，所填写的摘要；或者正文内容的前100个中文"
-"字符。"
+msgid "指编辑文章或者页面时，所填写的摘要；或者正文内容的前100个中文字符。"
 msgstr ""
-"Refers to the description filled in when editing an article "
-"or page; or the first 100 words of the text content."
+"Refers to the description filled in when editing an article or page; or the "
+"first 100 words of the text content."
 
 #: classes/admin.class.php:242, classes/admin.class.php:330
 msgctxt "配置项"
@@ -386,13 +354,10 @@ msgstr "Category description"
 
 #: classes/admin.class.php:247
 msgctxt "配置项"
-msgid ""
-"指当前分类在WordPress后台“文章-分类”，添加/编辑分类时保存的分"
-"类描述。"
+msgid "指当前分类在WordPress后台“文章-分类”，添加/编辑分类时保存的分类描述。"
 msgstr ""
-"Refers to the category description saved when adding/editing "
-"the current category in the WordPress backend \"Post-"
-"Categories\"."
+"Refers to the category description saved when adding/editing the current "
+"category in the WordPress backend \"Post-Categories\"."
 
 #: classes/admin.class.php:254, classes/admin.class.php:346
 msgctxt "配置项"
@@ -402,8 +367,7 @@ msgstr "Search term"
 #: classes/admin.class.php:255
 msgctxt "配置项"
 msgid "指网站用户搜索时所键入的关键词。"
-msgstr ""
-"Refers to the keywords typed by website users when searching."
+msgstr "Refers to the keywords typed by website users when searching."
 
 #: classes/admin.class.php:261
 msgctxt "配置项"
@@ -465,14 +429,13 @@ msgstr "WBOLT"
 
 #: classes/admin.class.php:381
 msgid ""
-"Smart SEO Tool是一款专门针对WordPress开发的智能SEO优化插件，"
-"与众多WordPress的SEO插件不一样的是，Smart SEO Tool更加简单易"
-"用，帮助站长快速完成WordPress博客/网站的SEO基础优化。"
+"Smart SEO Tool是一款专门针对WordPress开发的智能SEO优化插件，与众多WordPress的"
+"SEO插件不一样的是，Smart SEO Tool更加简单易用，帮助站长快速完成WordPress博客/"
+"网站的SEO基础优化。"
 msgstr ""
-"Smart SEO Tool is an intelligent SEO plugin developed "
-"specifically for WordPress. Unlike many WordPress SEO "
-"plugins, Smart SEO Tool is simpler and easier to use, "
-"helping webmasters quickly complete the basic SEO of "
+"Smart SEO Tool is an intelligent SEO plugin developed specifically for "
+"WordPress. Unlike many WordPress SEO plugins, Smart SEO Tool is simpler and "
+"easier to use, helping webmasters quickly complete the basic SEO of "
 "WordPress."
 
 #: classes/admin.class.php:382
@@ -537,8 +500,7 @@ msgstr "About %tag_name% related content full site index list"
 #: classes/admin.class.php:704
 msgctxt "设置默认值"
 msgid "%author_name%作者主页 %separator% %site_title%"
-msgstr ""
-"%author_name% author archive page %separator% %site_title%"
+msgstr "%author_name% author archive page %separator% %site_title%"
 
 #: classes/admin.class.php:706
 msgctxt "设置默认值"
@@ -548,16 +510,13 @@ msgstr "%author_name% Author's homepage"
 #: classes/admin.class.php:709
 msgctxt "设置默认值"
 msgid "与%search_keyword%匹配搜索结果 %separator% %site_title%"
-msgstr ""
-"Search results matching %search_keyword% %separator% "
-"%site_title%"
+msgstr "Search results matching %search_keyword% %separator% %site_title%"
 
 #: classes/admin.class.php:711
 msgctxt "设置默认值"
 msgid "当前页面展示所有与%search_keyword%相关的匹配结果"
 msgstr ""
-"The current page displays all matching results related to "
-"%search_keyword%"
+"The current page displays all matching results related to %search_keyword%"
 
 #: classes/admin.class.php:717
 msgctxt "设置默认值"
@@ -632,63 +591,51 @@ msgstr "%s homepage"
 #: classes/ajax.class.php:256, classes/ajax.class.php:262
 msgctxt "ajax返回提示"
 msgid "校验失败，请稍后再试（错误代码001）"
-msgstr ""
-"Authentication failed, please try again later (error code "
-"001)"
+msgstr "Authentication failed, please try again later (error code 001)"
 
 #: classes/ajax.class.php:270
 msgctxt "ajax返回提示"
 msgid "发生异常错误，联系技术支持（错误代码 010）"
 msgstr ""
-"An unexpected error occurred, contact technical support "
-"(error code 010)"
+"An unexpected error occurred, contact technical support (error code 010)"
 
 #: classes/ajax.class.php:277
 msgctxt "ajax返回提示"
 msgid "发生异常错误，联系技术支持（错误代码011）"
-msgstr ""
-"An abnormal error occurred, contact technical support (error "
-"code 011)"
+msgstr "An abnormal error occurred, contact technical support (error code 011)"
 
 #: classes/ajax.class.php:281
 msgctxt "ajax返回提示"
 msgid "校验失败，请稍后再试（错误代码004)"
-msgstr ""
-"Authentication failed, please try again later (error code "
-"004)"
+msgstr "Authentication failed, please try again later (error code 004)"
 
 #: classes/ajax.class.php:291
 msgctxt "ajax返回提示"
 msgid "插件配置参数错误，联系技术支持，错误代码："
 msgstr ""
-"The plugin configuration parameters are incorrect. Contact "
-"technical support. Error code:"
+"The plugin configuration parameters are incorrect. Contact technical "
+"support. Error code:"
 
 #: classes/ajax.class.php:294
 msgctxt "ajax返回提示"
 msgid "输入key无效，请输入正确key（错误代码200）"
-msgstr ""
-"Invalid key, please enter the correct key (error code 200)"
+msgstr "Invalid key, please enter the correct key (error code 200)"
 
 #: classes/ajax.class.php:297
 msgctxt "ajax返回提示"
 msgid "key使用次数超出限制范围（错误代码201）"
-msgstr ""
-"The number of key uses exceeds the limit (error code 201)"
+msgstr "The number of key uses exceeds the limit (error code 201)"
 
 #: classes/ajax.class.php:302
 msgctxt "ajax返回提示"
 msgid "校验服务器异常，联系技术支持，错误代码："
 msgstr ""
-"Verification server abnormality, contact technical support, "
-"error code:"
+"Verification server abnormality, contact technical support, error code:"
 
 #: classes/ajax.class.php:305
 msgctxt "ajax返回提示"
 msgid "发生异常错误，联系技术支持，错误代码："
-msgstr ""
-"An abnormal error occurred. Contact technical support. Error "
-"code:"
+msgstr "An abnormal error occurred. Contact technical support. Error code:"
 
 #: classes/ajax.class.php:474
 msgctxt "broken url状态"
@@ -702,12 +649,10 @@ msgstr "%tag_name% related post list %separator% %site_title%"
 
 #: classes/common.class.php:950
 msgctxt "common处理格式"
-msgid ""
-"关于%tag_name%相关内容全站索引列表，包括%list_keywords%等内"
-"容。"
+msgid "关于%tag_name%相关内容全站索引列表，包括%list_keywords%等内容。"
 msgstr ""
-"The entire site index list of content related to %tag_name%, "
-"including %list_keywords% and other content."
+"The entire site index list of content related to %tag_name%, including "
+"%list_keywords% and other content."
 
 #: classes/common.class.php:1024, classes/common.class.php:912
 msgctxt "common处理格式"
@@ -717,19 +662,15 @@ msgstr ", including %list_keywords% and other contents"
 #: classes/common.class.php:843
 msgctxt "common处理格式"
 msgid "与%search_keyword%匹配搜索结果 %separator% %site_title%"
-msgstr ""
-"Search results matching %search_keyword% %separator% "
-"%site_title%"
+msgstr "Search results matching %search_keyword% %separator% %site_title%"
 
 #: classes/common.class.php:855
 msgctxt "common处理格式"
 msgid ""
-"当前页面展示所有与%search_keyword%相关的匹配结果，包"
-"括%list_keywords%等内容。"
+"当前页面展示所有与%search_keyword%相关的匹配结果，包括%list_keywords%等内容。"
 msgstr ""
-"The current page displays all matching results related to "
-"%search_keyword%, including %list_keywords% and other "
-"content."
+"The current page displays all matching results related to %search_keyword%, "
+"including %list_keywords% and other content."
 
 #: classes/common.class.php:751
 msgctxt "common处理格式"
@@ -738,38 +679,32 @@ msgstr "%author_name% Author homepage %separator% %site_title%"
 
 #: classes/common.class.php:763
 msgctxt "common处理格式"
-msgid ""
-"%author_name%作者主页，主要负责%list_keywords%等内容发布。"
+msgid "%author_name%作者主页，主要负责%list_keywords%等内容发布。"
 msgstr ""
-"%author_name% author's homepage, mainly responsible for "
-"publishing content such as %list_keywords%."
+"%author_name% author's homepage, mainly responsible for publishing content "
+"such as %list_keywords%."
 
 #: classes/common.class.php:811
 msgctxt "common处理格式"
 msgid "，主要负责%list_keywords%等内容发布"
-msgstr ""
-", mainly responsible for publishing %list_keywords% and "
-"other content"
+msgstr ", mainly responsible for publishing %list_keywords% and other content"
 
 #: classes/common.class.php:1356, classes/common.class.php:1357
 msgctxt "common处理格式"
 msgid "WordPress是一种自由和开放源代码的内容管理系统"
-msgstr ""
-"WordPress is a free and open source content management system"
+msgstr "WordPress is a free and open source content management system"
 
 #: classes/common.class.php:1361
 msgctxt "common处理格式"
 msgid ""
-"WordPress是一种自由和开放源代码的内容管理系统，基于PHP和"
-"MySQL，使用WordPress，用户可以很容易地创建和维护个人或商业网"
-"站、博客、电子商务网站或应用程序，而无需深入了解编程语言或数"
-"据库管理。"
+"WordPress是一种自由和开放源代码的内容管理系统，基于PHP和MySQL，使用"
+"WordPress，用户可以很容易地创建和维护个人或商业网站、博客、电子商务网站或应用"
+"程序，而无需深入了解编程语言或数据库管理。"
 msgstr ""
-"WordPress is a free and open source content management "
-"system based on PHP and MySQL. Using WordPress, users can "
-"easily create and maintain personal or commercial websites, "
-"blogs, e-commerce sites, or applications without in-depth "
-"knowledge of programming languages ​​​​or database management."
+"WordPress is a free and open source content management system based on PHP "
+"and MySQL. Using WordPress, users can easily create and maintain personal or "
+"commercial websites, blogs, e-commerce sites, or applications without in-"
+"depth knowledge of programming languages ​​​​or database management."
 
 #: classes/common.class.php:1560
 msgctxt "tdk处理, tag"
@@ -789,9 +724,7 @@ msgstr "%s content"
 #: classes/common.class.php:1603
 msgctxt "tdk处理, tag"
 msgid "关于「%s」相关内容全站索引列表，包括%s。"
-msgstr ""
-"The entire site index list of content related to \"%s\", "
-"including %s."
+msgstr "The entire site index list of content related to \"%s\", including %s."
 
 #: classes/common.class.php:1509
 msgctxt "tdk处理, 搜索关键词"
@@ -812,8 +745,7 @@ msgstr "%s content"
 msgctxt "tdk处理"
 msgid "当前页面展示所有与「%s」搜索词相匹配的结果"
 msgstr ""
-"The current page displays all results that match the search "
-"term \"%s\""
+"The current page displays all results that match the search term \"%s\""
 
 #: classes/common.class.php:1543
 msgctxt "tdk处理"
@@ -829,8 +761,8 @@ msgstr "「%s」Author's homepage"
 msgctxt "tdk处理"
 msgid "「%s」作者主页，主要负责%s等内容发布。"
 msgstr ""
-"「%s」Author's homepage, mainly responsible for publishing "
-"content such as %s."
+"「%s」Author's homepage, mainly responsible for publishing content such as "
+"%s."
 
 #: classes/postedit.class.php:47
 msgctxt "meta box title"
@@ -841,18 +773,18 @@ msgstr "SEO settings"
 msgctxt "sitemap处理"
 msgid "未能正常生成Sitemap，请检查rewrite规则或者提交工单。"
 msgstr ""
-"The Sitemap cannot be generated normally. Please check the "
-"rewrite rules or submit a ticket."
+"The Sitemap cannot be generated normally. Please check the rewrite rules or "
+"submit a ticket."
 
 #: classes/sitemap.class.php:38
 msgctxt "sitemap处理"
 msgid ""
-"插件检测到其他插件生成Sitemap，需关闭及删除其他插件地图，否则"
-"本插件无法生成Sitemap。"
+"插件检测到其他插件生成Sitemap，需关闭及删除其他插件地图，否则本插件无法生成"
+"Sitemap。"
 msgstr ""
-"It is detected that other plug-ins generate Sitemaps. You "
-"need to close and delete other plugin's XML, otherwise this "
-"plugin will not be able to generate Sitemaps."
+"It is detected that other plug-ins generate Sitemaps. You need to close and "
+"delete other plugin's XML, otherwise this plugin will not be able to "
+"generate Sitemaps."
 
 #: classes/sitemap.class.php:35
 msgctxt "sitemap处理"
@@ -868,8 +800,8 @@ msgstr "Save successful"
 msgctxt "vue部分"
 msgid "您修改的设置尚未保存，确定离开此页面吗？"
 msgstr ""
-"The settings you modified have not been saved yet. Are you "
-"sure you leave this page?"
+"The settings you modified have not been saved yet. Are you sure you leave "
+"this page?"
 
 #: classes/_localize.php:9
 msgctxt "vue部分"
@@ -910,8 +842,8 @@ msgstr "Image SEO"
 msgctxt "vue部分"
 msgid "根据规则自动生成图片Title和ALT替代文本。"
 msgstr ""
-"Automatically generate image Title and ALT alternative text "
-"according to rules."
+"Automatically generate image Title and ALT alternative text according to "
+"rules."
 
 #: classes/_localize.php:17
 msgctxt "vue部分"
@@ -941,9 +873,7 @@ msgstr "Featured image ALT & Title"
 #: classes/_localize.php:22
 msgctxt "vue部分"
 msgid "将会重置robots.txt规则，请谨慎操作。"
-msgstr ""
-"The robots.txt rules will be reset, please proceed with "
-"caution."
+msgstr "The robots.txt rules will be reset, please proceed with caution."
 
 #: classes/_localize.php:23
 msgctxt "vue部分"
@@ -953,11 +883,10 @@ msgstr "Robots.txt configuration"
 #: classes/_localize.php:24
 msgctxt "vue部分"
 msgid ""
-"robots.txt用来告诉搜索引擎，网站上的哪些页面可以抓取，哪些页"
-"面不能抓取。"
+"robots.txt用来告诉搜索引擎，网站上的哪些页面可以抓取，哪些页面不能抓取。"
 msgstr ""
-"Robots.txt is used to tell search engines which pages on the "
-"website can be crawled and which pages cannot be crawled."
+"Robots.txt is used to tell search engines which pages on the website can be "
+"crawled and which pages cannot be crawled."
 
 #: classes/_localize.php:25
 msgctxt "vue部分"
@@ -967,8 +896,7 @@ msgstr "Current status"
 #: classes/_localize.php:26
 msgctxt "vue部分"
 msgid "已设置robots.txt，通过下方编辑框修改编辑"
-msgstr ""
-"Robots.txt has been set up, edit it in the edit box below"
+msgstr "Robots.txt has been set up, edit it in the edit box below"
 
 #: classes/_localize.php:27
 msgctxt "vue部分"
@@ -987,12 +915,10 @@ msgstr "Webmaster Tools Verification"
 
 #: classes/_localize.php:30
 msgctxt "vue部分"
-msgid ""
-"用于快速填写站长工具的域名验证码meta元描述，非必要时可关闭。"
+msgid "用于快速填写站长工具的域名验证码meta元描述，非必要时可关闭。"
 msgstr ""
-"Used to quickly fill in the domain name verification code "
-"meta description of the webmaster tool, which can be turned "
-"off when not necessary."
+"Used to quickly fill in the domain name verification code meta description "
+"of the webmaster tool, which can be turned off when not necessary."
 
 #: classes/_localize.php:31
 msgctxt "vue部分"
@@ -1042,8 +968,7 @@ msgstr "Incomplete configuration wizard"
 #: classes/_localize.php:40
 msgctxt "vue部分"
 msgid "您尚未完成插件初始设置，立即进行"
-msgstr ""
-"You have not yet completed the initial plugin setup. Please "
+msgstr "You have not yet completed the initial plugin setup. Please "
 
 #: classes/_localize.php:41
 msgctxt "vue部分"
@@ -1067,13 +992,10 @@ msgstr "Sitemap"
 
 #: classes/_localize.php:45
 msgctxt "vue部分"
-msgid ""
-"站点地图功能，可帮助搜索引擎更好地抓取网站内容。并支持通知谷"
-"歌和Bing。"
+msgid "站点地图功能，可帮助搜索引擎更好地抓取网站内容。并支持通知谷歌和Bing。"
 msgstr ""
-"The sitemap feature helps search engines better crawl "
-"website content. It also supports notifications to Google "
-"and Bing."
+"The sitemap feature helps search engines better crawl website content. It "
+"also supports notifications to Google and Bing."
 
 #: classes/_localize.php:46
 msgctxt "vue部分"
@@ -1153,13 +1075,12 @@ msgstr "Server configuration"
 #: classes/_localize.php:61
 msgctxt "vue部分"
 msgid ""
-"# 为了sitemap能正常访问，请确保当前网站nginx配置文件添加了以"
-"下Wordpress伪静态 或 配置了 Sitemap URL重写规则"
+"# 为了sitemap能正常访问，请确保当前网站nginx配置文件添加了以下Wordpress伪静"
+"态 或 配置了 Sitemap URL重写规则"
 msgstr ""
-"# In order to access the sitemap normally, please make sure "
-"that the following WordPress pseudo-static is added to the "
-"current website nginx configuration file or the Sitemap URL "
-"rewriting rules are configured"
+"# In order to access the sitemap normally, please make sure that the "
+"following WordPress pseudo-static is added to the current website nginx "
+"configuration file or the Sitemap URL rewriting rules are configured"
 
 #: classes/_localize.php:62
 msgctxt "vue部分"
@@ -1174,13 +1095,12 @@ msgstr "# Sitemap URL rewriting rules"
 #: classes/_localize.php:64
 msgctxt "vue部分"
 msgid ""
-"# 为了sitemap能正常访问，请确保当前网站.htaccess配置文件添加"
-"了以下Wordpress伪静态 或 配置了 Sitemap URL重写规则"
+"# 为了sitemap能正常访问，请确保当前网站.htaccess配置文件添加了以下Wordpress伪"
+"静态 或 配置了 Sitemap URL重写规则"
 msgstr ""
-"# In order to access the sitemap normally, please make sure "
-"that the following WordPress pseudo-static or Sitemap URL "
-"rewriting rules are added to the current website .htaccess "
-"configuration file"
+"# In order to access the sitemap normally, please make sure that the "
+"following WordPress pseudo-static or Sitemap URL rewriting rules are added "
+"to the current website .htaccess configuration file"
 
 #: classes/_localize.php:65
 msgctxt "vue部分"
@@ -1230,12 +1150,12 @@ msgstr "Copy"
 #: classes/_localize.php:74
 msgctxt "vue部分"
 msgid ""
-"您当前使用的是%s网络服务器，请确保您已经配置伪静态及重写规"
-"则，否则sitemap可能生成失败："
+"您当前使用的是%s网络服务器，请确保您已经配置伪静态及重写规则，否则sitemap可能"
+"生成失败："
 msgstr ""
-"You are currently using the %s web server. Please make sure "
-"that you have configured pseudo-static and rewrite rules, "
-"otherwise the sitemap generation may fail:"
+"You are currently using the %s web server. Please make sure that you have "
+"configured pseudo-static and rewrite rules, otherwise the sitemap generation "
+"may fail:"
 
 #: classes/_localize.php:75
 msgctxt "vue部分"
@@ -1244,12 +1164,9 @@ msgstr "TDK"
 
 #: classes/_localize.php:76
 msgctxt "vue部分"
-msgid ""
-"通过自动或者自定义，优化页面标题、描述和关键词，以符合搜索引"
-"擎要求。"
+msgid "通过自动或者自定义，优化页面标题、描述和关键词，以符合搜索引擎要求。"
 msgstr ""
-"Automatically or customly optimize page titles, "
-"descriptions, and keywords."
+"Automatically or customly optimize page titles, descriptions, and keywords."
 
 #: classes/_localize.php:77
 msgctxt "vue部分"
@@ -1385,15 +1302,15 @@ msgstr "Update completed"
 msgctxt "vue部分"
 msgid "确认重新检测所有URL？在下一检测周期检测所有URL。"
 msgstr ""
-"Are you sure you want to re-detect all URLs? Detect all URLs "
-"in the next detection cycle."
+"Are you sure you want to re-detect all URLs? Detect all URLs in the next "
+"detection cycle."
 
 #: classes/_localize.php:104
 msgctxt "vue部分"
 msgid "URL状态重置成功，检测任务提交成功。"
 msgstr ""
-"The URL status was reset successfully and the detection task "
-"was submitted successfully."
+"The URL status was reset successfully and the detection task was submitted "
+"successfully."
 
 #: classes/_localize.php:105
 msgctxt "vue部分"
@@ -1422,11 +1339,10 @@ msgstr "Broken URL Detection"
 
 #: classes/_localize.php:110
 msgctxt "vue部分"
-msgid ""
-"自动扫描并检测网站页面出站链接，以及早发现并处理失效链接。"
+msgid "自动扫描并检测网站页面出站链接，以及早发现并处理失效链接。"
 msgstr ""
-"Automatically scan and detect outbound links on website "
-"pages to detect and handle broken links early."
+"Automatically scan and detect outbound links on website pages to detect and "
+"handle broken links early."
 
 #: classes/_localize.php:111
 msgctxt "vue部分"
@@ -1475,12 +1391,10 @@ msgstr "For example, yourdomain.com"
 
 #: classes/_localize.php:120
 msgctxt "vue部分"
-msgid ""
-"*无需填写http(s)://协议头，仅填写主域名即可。如：yourdomain."
-"com"
+msgid "*无需填写http(s)://协议头，仅填写主域名即可。如：yourdomain.com"
 msgstr ""
-"* No need to fill in the http(s):// protocol header, just "
-"fill in the main domain name. For example: yourdomain.com"
+"* No need to fill in the http(s):// protocol header, just fill in the main "
+"domain name. For example: yourdomain.com"
 
 #: classes/_localize.php:121
 msgctxt "vue部分"
@@ -1645,11 +1559,10 @@ msgstr "404 Monitoring"
 #: classes/_localize.php:153
 msgctxt "vue部分"
 msgid ""
-"依赖蜘蛛分析插件，记录搜索引擎爬取404状态URL，以便于站长进行"
-"链接重定向。"
+"依赖蜘蛛分析插件，记录搜索引擎爬取404状态URL，以便于站长进行链接重定向。"
 msgstr ""
-"Rely on the plug-in to record the 404 status URLs crawled by "
-"search engines, so that webmasters can redirect links."
+"Rely on the plug-in to record the 404 status URLs crawled by search engines, "
+"so that webmasters can redirect links."
 
 #: classes/_localize.php:154
 msgctxt "vue部分"
@@ -1674,8 +1587,7 @@ msgstr "404 URL"
 #: classes/_localize.php:158
 msgctxt "vue部分"
 msgid "* 当前功能依赖Spider Analyser-蜘蛛分析插件。"
-msgstr ""
-"The current function depends on the Spider Analyser plugin."
+msgstr "The current function depends on the Spider Analyser plugin."
 
 #: classes/_localize.php:159
 msgctxt "vue部分"
@@ -1690,8 +1602,7 @@ msgstr "Install"
 #: classes/_localize.php:161
 msgctxt "vue部分"
 msgid "当前功能依赖Spider Analyser-蜘蛛分析插件。"
-msgstr ""
-"The current function depends on the Spider Analyser plugin."
+msgstr "The current function depends on the Spider Analyser plugin."
 
 #: classes/_localize.php:162
 msgctxt "vue部分"
@@ -1751,8 +1662,7 @@ msgstr "Is the selected link confirmed to be set to Enabled?"
 #: classes/_localize.php:173
 msgctxt "vue部分"
 msgid "所选链接确认设置为停用？"
-msgstr ""
-"Are you sure you want to set the selected link to disabled?"
+msgstr "Are you sure you want to set the selected link to disabled?"
 
 #: classes/_localize.php:174
 msgctxt "vue部分"
@@ -1776,12 +1686,10 @@ msgstr "Update status?"
 
 #: classes/_localize.php:178
 msgctxt "vue部分"
-msgid ""
-"支持因网站改版及URL变动等原因，实现站内链接重定向支持，有利于"
-"SEO。"
+msgid "支持因网站改版及URL变动等原因，实现站内链接重定向支持，有利于SEO。"
 msgstr ""
-"It supports the redirection of internal links due to website "
-"revision and URL changes, which is beneficial to SEO."
+"It supports the redirection of internal links due to website revision and "
+"URL changes, which is beneficial to SEO."
 
 #: classes/_localize.php:179
 msgctxt "vue部分"
@@ -1921,12 +1829,11 @@ msgstr "Link Optimization"
 #: classes/_localize.php:206
 msgctxt "vue部分"
 msgid ""
-"对分类页、Tag页及搜索页URL进行改写，及对出站链接添加nofollow"
-"属性及本域中转跳转。"
+"对分类页、Tag页及搜索页URL进行改写，及对出站链接添加nofollow属性及本域中转跳"
+"转。"
 msgstr ""
-"Rewrite the URLs of category, tag, and search pages, and add "
-"nofollow attributes and redirects to this domain for "
-"outbound links."
+"Rewrite the URLs of category, tag, and search pages, and add nofollow "
+"attributes and redirects to this domain for outbound links."
 
 #: classes/_localize.php:207
 msgctxt "vue部分"
@@ -1950,12 +1857,10 @@ msgstr "The tag URL is rewritten as: "
 
 #: classes/_localize.php:211
 msgctxt "vue部分"
-msgid ""
-"* WordPress中文TAG标签默认生成的URL对搜索引擎不友好，通过改写"
-"URL优化SEO"
+msgid "* WordPress中文TAG标签默认生成的URL对搜索引擎不友好，通过改写URL优化SEO"
 msgstr ""
-"* Non-English TAG URLs are not friendly to search engines. "
-"Optimize by rewriting URLs"
+"* Non-English TAG URLs are not friendly to search engines. Optimize by "
+"rewriting URLs"
 
 #: classes/_localize.php:212
 msgctxt "vue部分"
@@ -1979,12 +1884,10 @@ msgstr "Exception"
 
 #: classes/_localize.php:216
 msgctxt "vue部分"
-msgid ""
-"* 无需填写http(s)://协议头，仅填写主域名即可。如：yourdomain."
-"com"
+msgid "* 无需填写http(s)://协议头，仅填写主域名即可。如：yourdomain.com"
 msgstr ""
-"* No need to fill in the http(s):// protocol header, just "
-"fill in the main domain name. For example: yourdomain.com"
+"* No need to fill in the http(s):// protocol header, just fill in the main "
+"domain name. For example: yourdomain.com"
 
 #: classes/_localize.php:217
 msgctxt "vue部分"
@@ -2099,8 +2002,7 @@ msgstr "Keywords"
 #: classes/_localize.php:239
 msgctxt "vue部分"
 msgid "建议3-5个为宜，切勿进行关键词堆叠。"
-msgstr ""
-"Recommended to use 3-5 keywords, and avoid keyword stacking."
+msgstr "Recommended to use 3-5 keywords, and avoid keyword stacking."
 
 #: classes/_localize.php:240
 msgctxt "vue部分"
@@ -2440,8 +2342,7 @@ msgstr "Enter the option value and press Enter to confirm *"
 #: tpl/meta_box.tpl.php:33
 msgctxt "meta box"
 msgid "建议3-5个为宜，切勿进行关键词堆叠。"
-msgstr ""
-"Recommended to use 3-5 keywords, and avoid keyword stacking."
+msgstr "Recommended to use 3-5 keywords, and avoid keyword stacking."
 
 #: tpl/meta_box.tpl.php:39
 msgctxt "meta box"
@@ -2455,13 +2356,10 @@ msgstr "No more than 160 words, 100-160 words are recommended."
 
 #: tpl/meta_box.tpl.php:54
 msgctxt "meta box"
-msgid ""
-"* 若单独设置文章或者独立页面SEO信息，则SEO插件通用规则对此URL"
-"无效。"
+msgid "* 若单独设置文章或者独立页面SEO信息，则SEO插件通用规则对此URL无效。"
 msgstr ""
-"* If you set the TDK for an post or page separately, the "
-"general rules of the SEO plugin will not be valid for this "
-"URL."
+"* If you set the TDK for an post or page separately, the general rules of "
+"the SEO plugin will not be valid for this URL."
 
 #: tpl/meta_box.tpl.php:57
 msgctxt "meta box"

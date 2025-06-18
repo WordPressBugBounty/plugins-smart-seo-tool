@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0\n"
-"POT-Creation-Date: 2025-06-04 08:28+0000\n"
+"POT-Creation-Date: 2025-06-07 09:09+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -417,142 +417,169 @@ msgctxt "配置项"
 msgid "标签名称"
 msgstr "標籤名稱"
 
-#: classes/admin.class.php:443
+#: classes/admin.class.php:377, classes/admin.class.php:378
+msgid "Smart SEO Tool"
+msgstr "Smart SEO Tool"
+
+#: classes/admin.class.php:379, classes/admin.class.php:380
+msgid "闪电博"
+msgstr "閃電博"
+
+#: classes/admin.class.php:381
+msgid ""
+"Smart SEO Tool是一款专门针对WordPress开发的智能SEO优化插件，与众多"
+"WordPress的SEO插件不一样的是，Smart SEO Tool更加简单易用，帮助站长快"
+"速完成WordPress博客/网站的SEO基础优化。"
+msgstr ""
+"Smart SEO Tool是一款專為WordPress開發的智慧型SEO優化外掛，與眾多"
+"WordPress的SEO外掛不同的是，Smart SEO Tool更加簡單易用，協助站長快速"
+"完成WordPress部落格／網站的SEO基礎優化。"
+
+#: classes/admin.class.php:382
+msgid "https://www.wbolt.com/"
+msgstr "https://www.wbolt.com/tw/"
+
+#: classes/admin.class.php:463
 msgid "有新版本可用。"
 msgstr "有新版本可用。"
 
-#: classes/admin.class.php:444
+#: classes/admin.class.php:464
 msgctxt "%s产品名"
 msgid "查看 %s 版本"
 msgstr "檢視 %s 版本"
 
-#: classes/admin.class.php:444
+#: classes/admin.class.php:464
 msgid "查看版本 %s 详情"
 msgstr "檢視版本 %s 詳情"
 
-#: classes/admin.class.php:445
+#: classes/admin.class.php:465
 msgctxt "or"
 msgid "或"
 msgstr "或"
 
-#: classes/admin.class.php:445
+#: classes/admin.class.php:465
 msgctxt "%s产品名"
 msgid "现在更新%s"
 msgstr "現在更新%s"
 
-#: classes/admin.class.php:445
+#: classes/admin.class.php:465
 msgctxt "link"
 msgid "现在更新"
 msgstr "現在更新"
 
-#: classes/admin.class.php:530
+#: classes/admin.class.php:550
 msgid "插件主页"
 msgstr "外掛主頁"
 
-#: classes/admin.class.php:531
+#: classes/admin.class.php:551
 msgid "说明文档"
 msgstr "說明文件"
 
-#: classes/admin.class.php:532
+#: classes/admin.class.php:552
 msgid "反馈"
 msgstr "反饋"
 
-#: classes/admin.class.php:679
+#: classes/admin.class.php:564
+msgctxt "btn"
+msgid "设置"
+msgstr "設定"
+
+#: classes/admin.class.php:699
 msgctxt "设置默认值"
 msgid "%tag_name%相关文章列表 %separator% %site_title%"
 msgstr "%tag_name%相關文章列表 %separator% %site_title%"
 
-#: classes/admin.class.php:681
+#: classes/admin.class.php:701
 msgctxt "设置默认值"
 msgid "关于%tag_name%相关内容全站索引列表"
 msgstr "關於%tag_name%相關內容全站索引列表"
 
-#: classes/admin.class.php:684
+#: classes/admin.class.php:704
 msgctxt "设置默认值"
 msgid "%author_name%作者主页 %separator% %site_title%"
 msgstr "%author_name%作者主頁 %separator% %site_title%"
 
-#: classes/admin.class.php:686
+#: classes/admin.class.php:706
 msgctxt "设置默认值"
 msgid "%author_name%作者主页"
 msgstr "%author_name%作者主頁"
 
-#: classes/admin.class.php:689
+#: classes/admin.class.php:709
 msgctxt "设置默认值"
 msgid "与%search_keyword%匹配搜索结果 %separator% %site_title%"
 msgstr "與%search_keyword%匹配搜尋結果 %separator% %site_title%"
 
-#: classes/admin.class.php:691
+#: classes/admin.class.php:711
 msgctxt "设置默认值"
 msgid "当前页面展示所有与%search_keyword%相关的匹配结果"
 msgstr "當前頁面展示所有與%search_keyword%相關的匹配結果"
 
-#: classes/admin.class.php:697
+#: classes/admin.class.php:717
 msgctxt "设置默认值"
 msgid "%title%插图%num%"
 msgstr "%title%插圖%num%"
 
-#: classes/admin.class.php:698
+#: classes/admin.class.php:718
 msgctxt "设置默认值"
 msgid "%title%缩略图"
 msgstr "%title%縮圖"
 
-#: classes/admin.class.php:1248, classes/admin.class.php:1308
+#: classes/admin.class.php:1268, classes/admin.class.php:1328
 msgctxt "侧栏菜单名称"
 msgid "Smart SEO Tool"
 msgstr "Smart SEO Tool"
 
-#: classes/admin.class.php:1260
+#: classes/admin.class.php:1280
 msgctxt "子菜单"
 msgid "TDK优化"
 msgstr "TDK優化"
 
-#: classes/admin.class.php:1261
+#: classes/admin.class.php:1281
 msgctxt "子菜单"
 msgid "图片优化"
 msgstr "圖片優化"
 
-#: classes/admin.class.php:1262
+#: classes/admin.class.php:1282
 msgctxt "子菜单"
 msgid "链接优化"
 msgstr "連結優化"
 
-#: classes/admin.class.php:1263
+#: classes/admin.class.php:1283
 msgctxt "子菜单"
 msgid "网站地图"
 msgstr "網站地圖"
 
-#: classes/admin.class.php:1264
+#: classes/admin.class.php:1284
 msgctxt "子菜单"
 msgid "其他杂项"
 msgstr "其他雜項"
 
-#: classes/admin.class.php:1265
+#: classes/admin.class.php:1285
 msgctxt "子菜单"
 msgid "插件设置"
 msgstr "外掛設定"
 
-#: classes/admin.class.php:1414
+#: classes/admin.class.php:1434
 msgctxt "post type"
 msgid "文章"
 msgstr "文章"
 
-#: classes/admin.class.php:1415
+#: classes/admin.class.php:1435
 msgctxt "post type"
 msgid "独立页面"
 msgstr "獨立頁面"
 
-#: classes/admin.class.php:1417
+#: classes/admin.class.php:1437
 msgctxt "post type"
 msgid "分类"
 msgstr "分類"
 
-#: classes/admin.class.php:1421
+#: classes/admin.class.php:1441
 msgctxt "某类型的文章"
 msgid "%s文章"
 msgstr "%s文章"
 
-#: classes/admin.class.php:1598
+#: classes/admin.class.php:1618
 msgctxt "某类型的首页"
 msgid "%s首页"
 msgstr "%s首頁"

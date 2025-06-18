@@ -4,7 +4,7 @@ Donate link: https://www.wbolt.com/
 Tags: Baidu, SEO, Keyword, Description, Title, Alt, URL rewrite
 Requires at least: 6.0
 Tested up to: 6.8
-Stable tag: 4.1.0
+Stable tag: 4.1.1
 License: GNU General Public License v3.0 or later
 Requires PHP: 7.0
 
@@ -230,6 +230,10 @@ WordPress默认生成的中文标签对应的URL地址对搜索引擎不太友�
 7. 插件配置向导界面截图.
 
 == Changelog ==
+
+= 4.1.1 =
+* 修正在文章详情设置关键词时按回车异常情况。
+* 补充若干本地语言处理细节。
 
 = 4.1.0 =
 * 支持本地语言化。
