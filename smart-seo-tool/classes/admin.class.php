@@ -438,7 +438,7 @@ class Smart_SEO_Tool_Admin extends Smart_SEO_Tool_Base
     if (!current_user_can('update_plugins')) {
       return;
     }
-    if (!preg_match('#wb_sst#', $current_screen->parent_base)) {
+    if (!preg_match('#wb_sst#', $current_screen->parent_base ?? '')) {
       return;
     }
     $current         = get_site_transient('update_plugins');
@@ -1177,6 +1177,7 @@ class Smart_SEO_Tool_Admin extends Smart_SEO_Tool_Base
       //do_action('wb_sst_option_update',$opt_data,$old);
       return;
     }
+
     $type = sanitize_text_field(self::param('type'));
     $opt = self::before_sanitize_textarea_field($opt);
 
@@ -1405,14 +1406,19 @@ class Smart_SEO_Tool_Admin extends Smart_SEO_Tool_Base
 
         $content_item = $ret['opt']['content_item'];
 
+
         foreach ($content_item as $k => $v) {
-          if (isset($v['sort'])) continue;
-          $v['sort'] = 30;
-          if ($k == 'index') $v['sort'] = 1;
-          else if ($k == 'category') $v['sort'] = 5;
-          else if ($k == 'post') $v['sort'] = 10;
-          else if ($k == 'post_tag') $v['sort'] = 15;
-          else if (in_array($k, array('page', 'archive', 'author'))) $v['sort'] = 20;
+          $v['weights'] = $v['weights'] * 1;
+
+          if (!isset($v['sort'])) {
+            $v['sort'] = 30;
+            if ($k == 'index') $v['sort'] = 1;
+            else if ($k == 'category') $v['sort'] = 5;
+            else if ($k == 'post') $v['sort'] = 10;
+            else if ($k == 'post_tag') $v['sort'] = 15;
+            else if (in_array($k, array('page', 'archive', 'author'))) $v['sort'] = 20;
+          }
+
           $content_item[$k] = $v;
         }
 

@@ -16,7 +16,10 @@ class WBP
   // 计算本地化key
   public static function set_localize_key($text = '')
   {
-    $input = mb_convert_encoding($text, 'UTF-8');
+    $input = $text;
+    if (function_exists('mb_convert_encoding') && function_exists('mb_detect_encoding')) {
+      $input = mb_convert_encoding($text, 'UTF-8', mb_detect_encoding($text));
+    }
     return hash('crc32b', $input);
   }
 
